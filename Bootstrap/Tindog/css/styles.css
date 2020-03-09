@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -5,7 +9,6 @@ body{
 #title{
     background-color: #ff4c68;
     color: #fff;
-    min-height: px;
 }
 
 h1{
@@ -129,8 +132,26 @@ p{
 
 /* CTA */
 
-#cta, #footer{
-    padding: 2% 15%;
+#cta{
+    padding: 4% 15% 0% 15%;
     background-color: #ff4c68;
     text-align:center;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 900;
+}
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.icon{
+    padding: 1%;
+}
+
+.icon:hover{
+    opacity: 40%;
+
 }
