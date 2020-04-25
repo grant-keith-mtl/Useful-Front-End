@@ -1,1 +1,7 @@
-const fs = require('fs');
+var superheroes = require("superheroes");
+var mySuperHeroName = superheroes.random();
+var supervillains = require("supervillains");
+var mySuperVillainName = supervillains.random();
+
+console.log(mySuperHeroName);
+console.log(mySuperVillainName);
